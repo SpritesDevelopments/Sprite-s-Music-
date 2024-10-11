@@ -1,8 +1,7 @@
-const SERVER_URL = 'http://188.165.254.184:8102';
+const SERVER_URL = 'http://188.165.254.184:8102'; // Ensure the external server URL is used for API requests
 
 // Function to initialize the site
 function initializeSite() {
-    // Check which page we're on and perform corresponding actions
     if (document.getElementById('song-list')) {
         fetchAndDisplaySongs(); // Fetch and display songs on index or info page
     }
